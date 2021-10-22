@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Fucking Go Date Format</title>
+    <title>Go Date Format</title>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Inconsolata">
     <link rel="stylesheet" type="text/css" href="//unpkg.com/purecss@0.5.0/pure-min.css" integrity="sha384-lOySmEwqMpTZg7qGlKnJGP2qq63ZUxNxXLJcCkY8VtmblQMsdg+Kqmiw/YnyT2n4" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,13 +12,13 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" type="text/css" href="//unpkg.com/purecss@0.5.0/grids-responsive-min.css">
     <!--<![endif]-->
-    <link rel="stylesheet" type="text/css" href="fgdf.css">
+    <link rel="stylesheet" type="text/css" href="site.css">
   </head>
   <body>
     <div id="layout">
         <div id="main">
             <div class="header">
-                <h1>Fucking Go Date Format</h1>
+                <h1>Go Date Format</h1>
                 <h2>Because I've used <code>strftime</code> a million times before</h2>
             </div>
 
@@ -115,37 +115,28 @@
                   <h3>But...why?</h3>
                   <p>
                     Having used the <code>strftime</code> in many other languages (shell, ruby, python, c),
-                    Go's date formatting was frustratingly different &mdash; frustrating mostly because I'm
-                    too lazy to learn a new date format. I wanted to build this site to let me be
-                    lazy and continue writing <code>strftime</code> format strings in Go.
-                  </p>
-                  <p>
-                    Ironically, I can now write Go date format strings now after building this site. You win this
-                    time <a href="https://groups.google.com/forum/#!msg/golang-nuts/IoPQESsWggI/cyHQMDhVDUsJ">Russ Cox</a>.
+                    Go's date formatting can be frustratingly different &mdash; frustrating mostly because
+                    we're too lazy to learn a new date format. This site was built to allow the
+                    laziness to continue.
                   </p>
                   <p>
                     If you <em>really</em> need <code>strftime</code> functionality, there are a few
                     <a href="http://godoc.org/?q=strftime">open source</a> alternatives.
-                    (Courtesy of <a href="https://news.ycombinator.com/item?id=8944747">Andrew Gerrand</a>). Or just use
-                    this <a href="https://twitter.com/_saljam/status/559499590383046656">bash script</a>.
+                    (Courtesy of <a href="https://news.ycombinator.com/item?id=8944747">Andrew Gerrand</a>).
                   </p>
                 </div>
 
                 <div id="footer">
-                  Made by <a href="http://bwong.net/">Benny Wong</a>.<br />
-                  Not a fan of profanity? <a href="http://flippinggodateformat.com">Flipping Go Date Format</a> also works.<br />
-                  Inspired by <a href="http://fuckingblocksyntax.com/">Fucking Block Syntax</a> by my buddy
-                  <a href="http://lazerwalker.com/">Lazer-Walker</a>.
+                  Originally created by <a href="http://bwong.net/">Benny Wong</a>.<br />
                   Code definitions from <a href="http://www.strfti.me/">strfti.me</a>.<br />
-                  If you want to write Go for millions of daily active users, <a href="http://timehop.com/jobs">Timehop</a> is hiring.<br />
-                  This is webpage is <a href="https://github.com/bdotdub/fuckinggodateformat">open source</a>.
-                  We also do some (arguably) more useful open source stuff &mdash; check it out at
-                  <a href="http://garage.timehop.com">Timehop's Garage</a>.
+                  This is webpage is <a href="https://github.com/trueheart78/go-date-format">open
+                    source</a> (<a href="https://github.com/bdotdub/fuckinggodateformat">legacy
+                    repo</a>).
                 </div>
             </div>
         </div>
     </div>
     <script type="text/javascript" src="//unpkg.com/jquery@2.1.3/dist/jquery.min.js" integrity="sha384-CgeP3wqr9h5YanePjYLENwCTSSEz42NJkbFpAFgHWQz7u3Zk8D00752ScNpXqGjS" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="fgdf.js"></script>
+    <script type="text/javascript" src="site.js"></script>
   </body>
 </html>
