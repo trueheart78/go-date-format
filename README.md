@@ -1,8 +1,10 @@
 # Go Date Format :calendar:
 
-Cloned from the excellent [fuckinggodateformat repo][og repo] by **[@bdotdub][creator]**.
+Because we've used `strftime` a million times.
 
 ## Legacy
+
+Cloned from the excellent [fuckinggodateformat repo][og repo] by **[@bdotdub][creator]**.
 
 > # fuckinggodateformat
 >
