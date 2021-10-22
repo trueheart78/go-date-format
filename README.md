@@ -5,7 +5,7 @@ Because we've used `strftime` a million times.
 Located at [godateformat.com][gdf site]. If you miss the classic url,
 [fucking.godateformat.com][classic url] also works.
 
-## Legacy
+## Legacy :cursing_face:
 
 Cloned from the excellent [fuckinggodateformat repo][og repo] by **[@bdotdub][creator]**.
 
