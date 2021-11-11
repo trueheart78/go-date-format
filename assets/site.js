@@ -83,4 +83,12 @@ $(function() {
 
     el.selectionStart = el.selectionEnd = el.value.length;
   });
+
+  
+  // Handle the visual aspect of the classic angry title
+  if(window.location.hostname.indexOf("fucking.") == 0) {
+    var title = "Fucking Go Date Format";
+    document.getElementById("page_title").innerHTML = title;
+    document.title = title;
+  }
 });
