@@ -45,15 +45,11 @@ $(function() {
     return res;
   }
 
-  function update(cb) {
+  function update() {
     var input = $("#strftime").val();
     var output = strftime(input);
 
     $("#output").val(output);
-
-    if (cb) {
-      cb();
-    }
   }
 
   function appendCode() {
